@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .col {
+            background-color: rgba(123, 119, 114, 0.238);
+            border: 1px solid rgb(116, 110, 110);
+        }
+
+        .col-6 {
+            background-color: blanchedalmond;
+            border: 1px solid rgb(116, 110, 110);
+        }
+    </style>
+</head>
+
+<body>
+    <p class="h1">tag h1</p>
+    <p class="h2">tag h2</p>
+    <p class="h3">tag h3</p>
+    <p class="h4">tag h4</p>
+    <p class="h5">tag h5</p>
+
+    <div class="container">
+        <h1>titulo Principal</h1>
+        <p>aquie um paragrafo</p>
+    </div>
+    <div class="container-fluid">
+        <h1>titulo Principal</h1>
+        <p>aquie um paragrafo</p>
+    </div>
+
+
+    <table class="table table-striped">
+        <tr>
+            <th>nomde</th>
+            <th>idade</th>
+            <th>proficao</th>
+        </tr>
+        <tr>
+            <th>ted</th>
+            <th>22</th>
+            <th>Estudante</th>
+        </tr>
+        <tr>
+            <th>ralf</th>
+            <th>23</th>
+            <th>professor</th>
+        </tr>
+    </table>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th scope="col">*</th>
+                <th scope="col">Primeir</th>
+                <th scope="col">Ultimo</th>
+                <th scope="col">nickname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <th>marcus</th>
+                <th>otoo</th>
+                <th>@dde</th>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <th>zé</th>
+                <th>ruela</th>
+                <th>@ze-ruela</th>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="container">
+        <div class="row">
+            <div class=" col col-md-6">Uma das tres colunas</div>
+            <div class="col">Uma das tres colunas</div>
+            <div class="col">Uma das tres colunas</div>
+        </div>
+        <div class="row">
+            <div class="col">DUas das tres colunas</div>
+            <div class="col">DUas das tres colunas</div>
+            <div class="col">DUas das tres colunas</div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-6">COnteúdo</div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2">1 de 3</div>
+            <div class="col-md-auto" style="background-color: #99a0a9; border: 1px solid;">Conteudo com largura variavel
+            </div>
+            <div class="col col-lg-2">3 de 3</div>
+        </div>
+        <div class="row">
+            <div class="col">1 de 3</div>
+            <div class="col-md-auto">COnteudo com largura variavel</div>
+            <div class="col col-lg-2">3 de 3</div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+            <div class="col col-md-1">.col-md-1</div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col col-md-8">col-md-8</div>
+            <div class="col col-md-4">col-md-4</div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="col col-md-4">col-md-4</div>
+            <div class="col col-md-4">col-md-4</div>
+            <div class="col col-md-4">col-md-4</div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col col-md-6">col-md-6</div>
+            <div class="col col-md-6">col-md-6</div>
+        </div>
+    </div>
+</body>
+
+</html>
